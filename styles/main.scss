@@ -1,0 +1,178 @@
+
+table{
+  margin-top: 750px;
+}
+.cont-title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 288px;
+  line-height: 432px;
+  text-align: center;
+  margin-top: 25px;
+}
+.board,
+.centroCont,
+.houses1,
+.houses3,
+.houses5,
+.houses7,
+.houses9,
+.houses11,
+.houses13,
+.houses15,
+.houses17,
+.houses19,
+.houses21,
+.houses23,
+.houses25,
+.houses27,
+.houses29,
+.houses31,
+.houses33,
+.houses35,
+.houses37,
+.houses39,
+.borrachoCont {
+  display: grid;
+  grid-template-columns: repeat(40, 2.5%);
+  grid-template-rows: repeat(40, 2.5%);
+  height: 100vh;
+  position: absolute;
+  width: 80%;
+  overflow: hidden;
+  border: 12px solid #6d5720;
+  border-radius: 12px;
+  .plot {
+    background-color: #6d5720;
+    border: 1px solid gray;
+  }
+}
+.centro {
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 20;
+  grid-column-start: 20;
+  background-color: black;
+}
+.borracho {
+  z-index: 4;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 20;
+  grid-column-start: 20;
+  background-image: url(../img/borracho.png);
+}
+.house1,
+.house3,
+.house5,
+.house7,
+.house9,
+.house11,
+.house13,
+.house15,
+.house17,
+.house19,
+.house21,
+.house23,
+.house25,
+.house27,
+.house29,
+.house31,
+.house33,
+.house35,
+.house37,
+.house39 {
+  z-index: 2;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.house1 {
+  grid-row-start: 1;
+}
+.house3 {
+  grid-row-start: 3;
+}
+.house5 {
+  grid-row-start: 5;
+}
+.house7 {
+  grid-row-start: 7;
+}
+.house9 {
+  grid-row-start: 9;
+}
+.house11 {
+  grid-row-start: 11;
+}
+.house13 {
+  grid-row-start: 13;
+}
+.house15 {
+  grid-row-start: 15;
+}
+.house17 {
+  grid-row-start: 17;
+}
+.house19 {
+  grid-row-start: 19;
+}
+.house21 {
+    grid-row-start: 21;
+  }
+  .house23 {
+    grid-row-start: 23;
+  }
+  .house25 {
+    grid-row-start: 25;
+  }
+  .house27 {
+    grid-row-start: 27;
+  }
+  .house29 {
+    grid-row-start: 29;
+  }
+  .house31 {
+    grid-row-start: 31;
+  }
+  .house33 {
+    grid-row-start: 33;
+  }
+  .house35 {
+    grid-row-start: 35;
+  }
+  .house37 {
+    grid-row-start: 37;
+  }
+  .house39 {
+    grid-row-start: 39;
+  }
+.house1:nth-child(odd),
+.house3:nth-child(odd),
+.house5:nth-child(odd),
+.house7:nth-child(odd),
+.house9:nth-child(odd),
+.house11:nth-child(odd),
+.house13:nth-child(odd),
+.house15:nth-child(odd),
+.house17:nth-child(odd),
+.house19:nth-child(odd),
+.house21:nth-child(odd),
+.house23:nth-child(odd),
+.house25:nth-child(odd),
+.house27:nth-child(odd),
+.house29:nth-child(odd),
+.house31:nth-child(odd),
+.house33:nth-child(odd),
+.house35:nth-child(odd),
+.house37:nth-child(odd),
+.house39:nth-child(odd) {
+  background-image: url(../img/mansion.png);
+}
